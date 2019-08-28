@@ -1,0 +1,48 @@
+body {
+    background-color: #F6D55C;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper .container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.wrapper .img-info {
+    text-align: center;
+    font-weight: bold;
+}
+
+.wrapper .container .img-container {
+    min-width: 400px;
+    max-width: 400px;
+    height: 300px;
+}
+
+.page-img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#myCheck {
+    background-color: #20639B;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#myCheck:hover {
+    background-color: #173f5f;
+}
